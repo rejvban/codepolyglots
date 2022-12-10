@@ -4,11 +4,11 @@ import { ComingSoon } from "../components/templates";
 
 import type { NextPage } from "next";
 
-const Home: NextPage = () => {
+const Methods: NextPage = () => {
   return (
     <>
       <Head>
-        <title>codepolyglots</title>
+        <title>codepolyglots - methods</title>
         <meta name="description" content="Code Polyglots" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -17,4 +17,4 @@ const Home: NextPage = () => {
   );
 };
 
-export default Home;
+export default Methods;

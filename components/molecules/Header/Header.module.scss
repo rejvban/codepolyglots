@@ -1,0 +1,25 @@
+@import "../.././../styles/variables";
+
+.header {
+  &__container {
+    padding: 2.2rem 0;
+    max-width: 121rem;
+    margin: auto;
+    display: flex;
+
+    &__logo {
+      h1 {
+        margin: 0;
+        line-height: $line-height-xlarge;
+      }
+    }
+
+    &__navigation {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      flex-grow: 1;
+      gap: 1.4rem;
+    }
+  }
+}

@@ -1,0 +1,15 @@
+@mixin reset-link() {
+  text-decoration: none;
+  color: inherit;
+}
+
+@mixin link($color: $color-base, $hover-color: $color-primary, $line-height: $line-height) {
+  color: $color;
+  display: block;
+  transition: color 0.2s ease-in-out;
+  line-height: $line-height;
+
+  &:hover {
+    color: $hover-color;
+  }
+}

@@ -1,0 +1,8 @@
+@import "../../../styles/variables";
+@import "../../../styles/common/link.mixin";
+
+.headerLink {
+  @include reset-link();
+  @include link($color-secondary);
+  font-size: $font-size;
+}

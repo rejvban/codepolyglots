@@ -1,0 +1,8 @@
+@import "../../../styles/variables";
+@import '../../../styles/common/link.mixin';
+
+.footerExternalLink {
+  @include reset-link();
+  @include link();
+  font-size: $font-size;
+}
